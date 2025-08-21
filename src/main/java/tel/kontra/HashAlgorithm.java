@@ -7,24 +7,35 @@ package tel.kontra;
  */
 public enum HashAlgorithm {
     
-    // Sha algorithms
+
+    /** SHA-1 algorithm (not recommended for security) */
     SHA_1("SHA-1"),
+    /** SHA-224 algorithm */
     SHA_224("SHA-224"),
+    /** SHA-256 algorithm (recommended default) */
     SHA_256("SHA-256"),
+    /** SHA-384 algorithm */
     SHA_384("SHA-384"),
+    /** SHA-512 algorithm */
     SHA_512("SHA-512"),
+    /** SHA-512/224 algorithm */
     SHA_512_224("SHA-512/224"),
+    /** SHA-512/256 algorithm */
     SHA_512_256("SHA-512/256"),
 
-    // SHA3 algorithms
+    /** SHA3-224 algorithm */
     SHA3_224("SHA3-224"),
+    /** SHA3-256 algorithm */
     SHA3_256("SHA3-256"),
+    /** SHA3-384 algorithm */
     SHA3_384("SHA3-384"),
+    /** SHA3-512 algorithm */
     SHA3_512("SHA3-512"),
 
-    // MD algorithms
+    /** MD2 algorithm (not secure, legacy only) */
     MD2("MD2"),
-    MD5("MD5"); // Not secure but for identification purposes only
+    /** MD5 algorithm (not secure, legacy only) */
+    MD5("MD5");
 
     // Stupid SHA_ breaks the hashing function
 
