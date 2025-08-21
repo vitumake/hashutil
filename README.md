@@ -28,7 +28,6 @@ mvn clean install
 
 ## Usage
 
-
 ```java
 import tel.kontra.util.HashUtil;
 import tel.kontra.util.HashUtilFactory;
