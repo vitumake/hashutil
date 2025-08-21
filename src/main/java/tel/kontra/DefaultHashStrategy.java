@@ -8,10 +8,22 @@ import java.security.MessageDigest;
 public class DefaultHashStrategy implements HashStrategy {
     private final HashAlgorithm algorithm;
 
+    /**
+     * Constructor for DefaultHashStrategy.
+     *
+     * @param algorithm The hash algorithm to use
+     */
     public DefaultHashStrategy(HashAlgorithm algorithm) {
         this.algorithm = algorithm;
     }
 
+    /**
+     * Hash the input string with the given salt using the specified algorithm.
+     *
+     * @param input The string to hash
+     * @param salt  The salt to use
+     * @return The hashed string in hexadecimal format
+     */
     @Override
     public String hash(String input, String salt) {
         try {
