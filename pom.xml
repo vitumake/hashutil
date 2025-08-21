@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <groupId>tel.kontra</groupId>
+    <artifactId>hashutil</artifactId>
+    <version>1.0.0</version>
+    <name>HashUtil</name>
+    <url>https://kontra.tel</url>
+    <description>
+        Utility class for hashing strings including a password encoder.
+
+        Written originally for ExpenseTracker project
+        in 2024, then modified for further use.
+    </description>
+    <url>https://github.com/yourusername/hashutil</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>vitumake</id>
+            <name>Markus Vallin</name>
+            <email>markus.vallin@metropolia.fi</email>
+        </developer>
+    </developers>
+    <scm>
+        <url>https://github.com/yourusername/hashutil</url>
+        <connection>scm:git:git://github.com/vitumake/hashutil.git</connection>
+        <developerConnection>scm:git:ssh://github.com:vitumake/hashutil.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+</project>
