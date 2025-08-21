@@ -16,12 +16,14 @@
         Written originally for ExpenseTracker project
         in 2024, then modified for further use.
     </description>
+
     <licenses>
         <license>
             <name>MIT License</name>
             <url>https://opensource.org/licenses/MIT</url>
         </license>
     </licenses>
+
     <developers>
         <developer>
             <id>vitumake</id>
@@ -29,6 +31,7 @@
             <email>markus.vallin@metropolia.fi</email>
         </developer>
     </developers>
+
     <scm>
         <url>https://github.com/yourusername/hashutil</url>
         <connection>scm:git:git://github.com/vitumake/hashutil.git</connection>
@@ -37,8 +40,20 @@
     </scm>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <!--<maven.compiler.source>17</maven.compiler.source>-->
+        <!--<maven.compiler.target>17</maven.compiler.target>-->
+        <maven.compiler.release>17</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
+
+        <dependencies>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
+                <version>5.10.0</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
 
 </project>
