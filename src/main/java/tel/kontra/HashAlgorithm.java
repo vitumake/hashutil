@@ -1,4 +1,4 @@
-package tel.kontra.util;
+package tel.kontra;
 
 /**
  * Enum for hash algorithms
