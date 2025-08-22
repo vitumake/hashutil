@@ -39,7 +39,7 @@
     </developers>
 
     <scm>
-        <url>https://github.com/yourusername/hashutil</url>
+        <url>https://github.com/vitumake/hashutil</url>
         <connection>scm:git:git://github.com/vitumake/hashutil.git</connection>
         <developerConnection>scm:git:ssh://github.com:vitumake/hashutil.git</developerConnection>
     </scm>
